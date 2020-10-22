@@ -1,0 +1,736 @@
+CRITICAL - 2020-10-19 16:25:43 --> Call to a member function library() on null
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 16:25:54 --> Call to a member function library() on null
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 16:29:23 --> Call to a member function library() on null
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 16:29:24 --> Call to a member function library() on null
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 16:30:54 --> Call to a member function library() on null
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:01:23 --> Class 'MY_Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-19 17:11:10 --> Undefined variable: rewrite
+#0 C:\wamp64\www\categorie\system\Commands\Server\Serve.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 158, Array)
+#1 C:\wamp64\www\categorie\system\CLI\Commands.php(100): CodeIgniter\Commands\Server\Serve->run(Array)
+#2 C:\wamp64\www\categorie\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('serve', Array)
+#3 C:\wamp64\www\categorie\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'serve')
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\categorie\spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2020-10-19 17:12:32 --> Class 'MY_Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-19 17:12:34 --> Class 'MY_Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-19 17:21:45 --> Class 'BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-19 17:22:40 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:24:12 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:24:15 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:24:16 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:24:17 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:24:17 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:24:17 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:24:17 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:24:17 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:25:13 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\wamp64\www\categorie\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('menus')
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('menus')
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:25:29 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:25:39 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:09 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:40 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:41 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:42 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:42 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:42 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:42 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:42 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:42 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:43 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:43 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:43 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:43 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:27:43 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:28:06 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:29:00 --> Cannot call constructor
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:30:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(11): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:31:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(12): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:31:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(12): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:31:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(12): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:31:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(12): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:31:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(12): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:32:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:34:44 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\c...', 28, Array)
+#1 C:\wamp64\www\categorie\app\Models\Mdl_categories.php(28): count(' $query->result...')
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(16): App\Models\Mdl_categories->generateTree(' $query->result...')
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:34:46 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\c...', 28, Array)
+#1 C:\wamp64\www\categorie\app\Models\Mdl_categories.php(28): count(' $query->result...')
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(16): App\Models\Mdl_categories->generateTree(' $query->result...')
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:34:47 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\c...', 28, Array)
+#1 C:\wamp64\www\categorie\app\Models\Mdl_categories.php(28): count(' $query->result...')
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(16): App\Models\Mdl_categories->generateTree(' $query->result...')
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:36:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:36:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:36:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:36:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:36:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:36:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:36:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 17:39:46 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\categorie\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\categorie\system\Model.php(454): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\categorie\app\Models\Mdl_categories.php(15): CodeIgniter\Model->findAll()
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 17:39:47 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\categorie\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\categorie\system\Model.php(454): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\categorie\app\Models\Mdl_categories.php(15): CodeIgniter\Model->findAll()
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 17:40:04 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\categorie\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\categorie\system\Model.php(454): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\categorie\app\Models\Mdl_categories.php(15): CodeIgniter\Model->findAll()
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 17:40:05 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\categorie\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\categorie\system\Model.php(454): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\categorie\app\Models\Mdl_categories.php(15): CodeIgniter\Model->findAll()
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 17:40:10 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\categorie\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\categorie\system\Model.php(454): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\categorie\app\Models\Mdl_categories.php(15): CodeIgniter\Model->findAll()
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 17:43:47 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\categorie\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\categorie\system\Model.php(454): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\categorie\app\Models\Mdl_categories.php(16): CodeIgniter\Model->findAll()
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 17:45:32 --> Call to a member function view() on null
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 17:46:42 --> Invalid file: menus/menu.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menus/menu.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menus/menu', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(20): view('menus/menu', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:46:45 --> Invalid file: menus/menu.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menus/menu.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menus/menu', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(20): view('menus/menu', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:47:13 --> Invalid file: menus/menu.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menus/menu.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menus/menu', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(20): view('menus/menu', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:49:13 --> Invalid file: menus/menu.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menus/menu.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menus/menu', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(21): view('menus/menu', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:49:20 --> Invalid file: menus/menu.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menus/menu.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menus/menu', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(21): view('menus/menu', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:49:34 --> Invalid file: menus/menu.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menus/menu.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menus/menu', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(21): view('menus/menu', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:49:36 --> Invalid file: menus/menu.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menus/menu.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menus/menu', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(21): view('menus/menu', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:49:46 --> Invalid file: menus.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menus.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menus', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(21): view('menus', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:50:06 --> Invalid file: menus/index.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menus/index.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menus/index', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(21): view('menus/index', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:50:42 --> Invalid file: menus/index.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menus/index.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menus/index', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('menus/index', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:51:24 --> Invalid file: Categories/index.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Categories/index.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('Categories/index', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('Categories/index', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:53:41 --> Invalid file: Categories/index.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Categories/index.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('Categories/index', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('Categories/index', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:53:44 --> Invalid file: Categories/index.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Categories/index.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('Categories/index', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('Categories/index', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:54:02 --> Invalid file: Categories/index.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Categories/index.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('Categories/index', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('Categories/index', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 17:58:33 --> Invalid file: Categories/index.php
+#0 C:\wamp64\www\categorie\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Categories/index.php')
+#1 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('Categories/index', Array, true)
+#2 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('Categories/index', Array)
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-19 18:05:34 --> Undefined variable: menu
+#0 C:\wamp64\www\categorie\app\Views\menu.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 6, Array)
+#1 C:\wamp64\www\categorie\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('menu')
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 19:03:12 --> Call to a member function where() on null
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(14): App\Models\Mdl_categories->get_items()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 19:11:00 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\categorie\app\Views\menu.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\c...', 7, Array)
+#1 C:\wamp64\www\categorie\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('menu', Array)
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 19:11:29 --> Undefined variable: menu
+#0 C:\wamp64\www\categorie\app\Views\menu.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 7, Array)
+#1 C:\wamp64\www\categorie\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('menu', Array)
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 19:11:36 --> Undefined variable: menu
+#0 C:\wamp64\www\categorie\app\Views\menu.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 7, Array)
+#1 C:\wamp64\www\categorie\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('menu', Array)
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 19:12:29 --> Undefined variable: menu
+#0 C:\wamp64\www\categorie\app\Views\menu.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 8, Array)
+#1 C:\wamp64\www\categorie\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('menu', Array)
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 19:12:54 --> Undefined variable: items
+#0 C:\wamp64\www\categorie\app\Views\menu.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 8, Array)
+#1 C:\wamp64\www\categorie\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('menu', Array)
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 19:14:51 --> Undefined variable: menu
+#0 C:\wamp64\www\categorie\app\Views\menu.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 8, Array)
+#1 C:\wamp64\www\categorie\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('menu', Array)
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 19:15:03 --> Array to string conversion
+#0 C:\wamp64\www\categorie\app\Views\menu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 10, Array)
+#1 C:\wamp64\www\categorie\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('menu', Array)
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 19:15:53 --> Array to string conversion
+#0 C:\wamp64\www\categorie\app\Views\menu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 10, Array)
+#1 C:\wamp64\www\categorie\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('menu', Array)
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 19:15:56 --> Array to string conversion
+#0 C:\wamp64\www\categorie\app\Views\menu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 10, Array)
+#1 C:\wamp64\www\categorie\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\categorie\system\Common.php(1119): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\wamp64\www\categorie\app\Controllers\Categories.php(22): view('menu', Array)
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->index()
+#5 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#6 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-19 19:43:22 --> Undefined property: App\Controllers\Categories::$input
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 23, Array)
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->getchildcat()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 19:44:17 --> Undefined property: App\Controllers\Categories::$input
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 23, Array)
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->getchildcat()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 19:50:36 --> Undefined property: App\Controllers\Categories::$input
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 23, Array)
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->getchildcat()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 19:54:12 --> Undefined property: App\Controllers\Categories::$input
+#0 C:\wamp64\www\categorie\app\Controllers\Categories.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 23, Array)
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->getchildcat()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-19 19:56:21 --> Too few arguments to function App\Controllers\Categories::getchildcat(), 0 passed in C:\wamp64\www\categorie\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->getchildcat()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 19:56:40 --> Too few arguments to function App\Controllers\Categories::getchildcat(), 0 passed in C:\wamp64\www\categorie\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->getchildcat()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 19:56:42 --> Too few arguments to function App\Controllers\Categories::getchildcat(), 0 passed in C:\wamp64\www\categorie\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->getchildcat()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 19:56:55 --> Too few arguments to function App\Controllers\Categories::getchildcat(), 0 passed in C:\wamp64\www\categorie\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->getchildcat()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 19:57:59 --> Too few arguments to function App\Controllers\Categories::__construct(), 0 passed in C:\wamp64\www\categorie\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 20:03:33 --> Too few arguments to function App\Controllers\Categories::__construct(), 0 passed in C:\wamp64\www\categorie\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(890): App\Controllers\Categories->__construct()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-19 20:05:29 --> Call to undefined method App\Models\Mdl_categories::generateTree
+#0 C:\wamp64\www\categorie\app\Models\Mdl_categories.php(30): CodeIgniter\Model->__call('generateTree', Array)
+#1 C:\wamp64\www\categorie\app\Controllers\Categories.php(27): App\Models\Mdl_categories->getChildItems('15')
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->getchildcat('15')
+#3 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#4 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-19 20:06:08 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194312 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-19 21:02:17 --> Too few arguments to function App\Controllers\Categories::getchildcat(), 0 passed in C:\wamp64\www\categorie\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\wamp64\www\categorie\system\CodeIgniter.php(918): App\Controllers\Categories->getchildcat()
+#1 C:\wamp64\www\categorie\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#2 C:\wamp64\www\categorie\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\categorie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
